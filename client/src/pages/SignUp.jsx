@@ -35,7 +35,7 @@ export default function SignUp() {
   };
   return (
     <div className="p-3 max-w-lg mx-auto">
-      <h1 className="text-3xl text-center font-semibold my-7">SignUp</h1>
+      <h1 className="text-3xl text-center font-semibold my-7">Regístrate</h1>
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <input
           type="text"
@@ -65,7 +65,7 @@ export default function SignUp() {
       <div className="flex gap-2 mt-5">
         <p>Ya estas registrado?</p>
         <Link to="/sign-in">
-          <span className="text-blue-500">Logeate</span>
+          <span className="text-blue-500">Ingresa</span>
         </Link>
       </div>
       <p className="text-red-700 mt-5">{error && 'Algo raro ocurrio!'}</p>
